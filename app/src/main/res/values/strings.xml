@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">17_isen Ballades Sonores</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Balladons nous</string>
+    <string name="tabHome">Accueil</string>
+    <string name="tabMap">Carte</string>
+    <string name="tabList">Liste ballades</string>
+    <string name="action_search">Rechercher</string>
+    <string name="title_activity_ballade_info">BalladeInfoActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

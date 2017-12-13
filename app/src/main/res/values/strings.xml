@@ -7,7 +7,7 @@
     <string name="action_settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Balladons nous</string>
+    <string name="hello_blank_fragment">Balladons nous un peu</string>
     <string name="tabHome">Accueil</string>
     <string name="tabMap">Carte</string>
     <string name="tabList">Liste ballades</string>

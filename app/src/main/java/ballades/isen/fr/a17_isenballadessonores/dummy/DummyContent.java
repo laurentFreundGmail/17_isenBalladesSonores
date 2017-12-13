@@ -26,10 +26,15 @@ public class DummyContent {
     private static final int COUNT = 25;
 
     static {
-        // Add some sample items.
+        /* Add some sample items.
         for (int i = 1; i <= COUNT; i++) {
             addItem(createDummyItem(i));
         }
+        */
+        addItem(new DummyItem("1", "Le phare", "L. Freund"));
+        addItem(new DummyItem("2", "Le clignotant", "L. Freund"));
+        addItem(new DummyItem("3", "Le Klaxon", "Bob"));
+
     }
 
     private static void addItem(DummyItem item) {
@@ -38,7 +43,7 @@ public class DummyContent {
     }
 
     private static DummyItem createDummyItem(int position) {
-        return new DummyItem(String.valueOf(position), "Item " + position, makeDetails(position));
+        return new DummyItem(String.valueOf(position), "Ballade " + position, makeDetails(position));
     }
 
     private static String makeDetails(int position) {
